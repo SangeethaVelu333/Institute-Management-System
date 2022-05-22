@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+.tophead1{
+    padding: 20px;
+    width:93vw;
+    height: fit-content;
+    box-shadow: 5px 5px 15px rgba(124,119,119,0.5);
+    font-family: 'Poppins',sans-serif ;
+   
+    
+}
+.admin-box-inside{
+    box-shadow:5px 5px 15px rgba(124,119,119,0.5) ;
+  /* margin-top: 40px; */
+  margin-left: 2%; 
+  width: 85vw;
+  font-family: 'Poppins',sans-serif ;
+}
+.admin-box-inside-price{
+    box-shadow:5px 5px 15px rgba(124,119,119,0.5) ;
+  /* margin-top: 40px; */
+  margin-left: 2%; 
+  width: 82vw;
+  font-family: 'Poppins',sans-serif ;
+}
+.align-row{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins',sans-serif ;
+    /* overflow:scroll ; */
+}
+.align-column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+}
+.admin{
+    margin-left: 550px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 15px rgba(124,119,119,0.5);
+    width: 700px;
+    height: max-content;
+    padding: 2%;
+}
+.hosadmin{
+    margin-left: 3%;
+    margin-top: 40px;
+    box-shadow: 5px 5px 15px rgba(124,119,119,0.5);
+    width: 208%;
+    height: max-content;
+    padding: 2%;
+}
+.addnewhospital{
+    margin-left: 78%;
+    background-color:#268da5;
+    color: white;
+    border: 1px #268da5;
+    padding: 7px 10px;
+    width: 16%;
+    font-size: 16px;
+    border-radius: 2px;
+    height: 40px;
+}
+.changepwd{
+    font-size: 14px;
+    font-weight: bold;
+    color: #151718;
+    margin-left: 170px;
+    text-decoration: none;
+}
+.changepassword-card{
+    
+        margin-left:650px;
+        margin-top: 150px;
+        box-shadow: 5px 5px 15px rgba(124,119,119,0.5);
+        width: 450px;
+        height: max-content;
+        padding: 2%;
+}
+.changepwd-btn{
+    float: right;
+}
+.search-staff{
+    border-radius: 3px;
+    border: 1px solid gray;
+    margin-left:52%;
+    /* margin-right:20px; */
+    width:20%;
+    height:40px;
+    padding: 10px ;
+}
+.addNewbtn{
+    margin-left: 2%;
+    background-color:#268da5;
+    color: white;
+    border: 1px #268da5;
+    padding: 7px 10px;
+    width: 16%;
+    font-size: 16px;
+    border-radius: 2px;
+    height: 40px;
+}
+.boxprice{
+    box-shadow:5px 5px 15px rgba(124,119,119,0.5) ;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 87vw;
+    font-family: 'Poppins',sans-serif ;
+  }
+.search-icon-admin
+{
+margin-left:-3%;
+margin-top: 11px;
+width: 2%;
+height: 20px;
+color: gray;
+}
+.printadm{
+    color:#268da5;
+    width: 35px;
+    height: 35px;
+   
+}
+.aprintadm{
+    margin-left: 1%;
+   
+}
+
+@media screen and (min-width:800px) {
+   .admin{
+    margin-left: 150px;
+    margin-top:40px;
+   
+   }
+   .changepassword-card{
+    margin-left:400px;
+    margin-top: 100px;
+   }
+   .aprintadm{
+    margin-left: 1%;
+   }
+}
